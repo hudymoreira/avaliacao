@@ -1,0 +1,24 @@
+// Garante que o corpo ocupe toda a altura da tela e remova as margens
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  // A estrutura de container e conteúdo
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz com que o container ocupe pelo menos a altura total da tela */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Permite que o conteúdo cresça para ocupar o espaço disponível */
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+      
